@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Yekan";
+    src: url(./Yekan-Bakh-FaNum-08-Fat.woff);
+}
+#imgbackground {
+    display: flex;
+    justify-content: center;
+}
+#background {
+    width: 1350px;
+    height: 701.683px;
+}
+#imglogo {
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    width: 85px;
+    height: 125px;
+    margin-top: -686px;
+}
+#box {
+    display: flex;
+    justify-content: center;
+}
+#box1 {
+    width: 72rem;
+    height: 30rem;
+    border-radius: 25px;
+    border:  solid 1.5px;
+    margin-top: 20px;
+    margin-top: -534px;
+}
+#img {
+    width: 581px;
+    height: 485.3px;
+    margin-left: -1px;
+    margin-top: -442px;
+}
+#name {
+    width: 384px;
+    height: 40px;
+    margin-top: 70px;
+    margin-left: 689px;
+    border-radius: 20px;
+    border:  #fff 1px;
+    background: #91C8E4;
+}
+#phone {
+    width: 384px;
+    height: 40px;
+    margin-top: 23px;
+    margin-left: 689px;
+    border-radius: 20px;
+    border: 0px;
+    background: #91C8E4;
+}
+#user {
+    width: 384px;
+    height: 40px;
+    margin-top: 23px;
+    margin-left: 689px;
+    border-radius: 20px;
+    border: 0px;
+    background: #91C8E4;
+}
+#pass {
+    width: 384px;
+    height: 40px;
+    margin-top: 23px;
+    margin-left: 689px;
+    border-radius: 20px;
+    border: 0px;
+    background: #91C8E4;
+}
+#btn {
+    width: 305px;
+    height: 54px;
+    border-radius: 20px;
+    border: 0px;
+    margin-left: 736px;
+    margin-top: 79px;
+    font: "Yekan";
+    background: #9288F8;
+}

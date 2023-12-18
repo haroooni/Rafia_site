@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Yekan";
+    src: url(./Yekan-Bakh-FaNum-08-Fat.woff);
+}
+#imgbackground {
+    display: flex;
+    justify-content: center;
+}
+#background {
+    width: 1371px;
+    margin-left: -24px;
+    height: 693.767px;
+    margin-top: -8px;
+}
+
+#imglogo {
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    width: 85px;
+    height: 125px;
+    margin-top: -679px;
+}
+#box {
+    display: flex;
+    justify-content: center;
+}
+#box1 {
+
+    margin-top: -383px;
+}
+#phone {
+    width: 24rem;
+    height: 3rem;
+    border-radius: 25px;
+    border:  solid 1.5px;
+}
+#submit1 {
+    width: 185px;
+    height: 38px;
+    border-radius: 15px;
+    border: solid 0cap;
+    margin-top: 83px;
+    margin-left: 95px;
+    background: #9288F8;
+}
+
+#inp {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "cinema" ;
+    src : url(../font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf)
+}
+
+@font-face {
+    font-family: "yekan" ;
+    src: url(../font/YEKAN-BAKH-FANUM-04-REGULAR.WOFF);
+}
+
+#heloo {
+    font-family: yekan;
+    margin-right: 25px;
+    font-size: 26px;
+    margin-top: 91px;
+}
+
+.list_user {
+    background-color: #FFF6DC;
+  width: 200px;
+  height: 100px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.list_user h1 {
+    font-family: yekan;
+  font-size: 25px;
+  margin-top: 36.75px;
+}
+
+.div_user {
+    border: solid 3px #E9E9E9;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: yekan;
+}
+
+.all_user {
+    display: flex;
+  justify-content: space-around;
+}
+
+.name_user {
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.phone_user {
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.pass_user {
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+#btn {
+    display: flex;
+}
+
+.img img {
+    width: 230px;
+  border-radius: 25px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.img {
+    display: flex;
+  justify-content: center;
+}
+
+.name_pro h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.name_pro {
+    margin-bottom: 20px;
+}
+
+.price_pro {
+    display: flex;
+    justify-content: center;
+}
+
+.price_pro h1 {
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+
+.menu {
+    font-family: yekan;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+body {
+    background-color: #fff;
+}
+
+#menu {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-top: -27px;
+}
+
+#logo_img {
+    width: 75px;
+    position: relative;
+    z-index: 2;
+}
+
+#login , #rigester {
+    border: solid 1px;
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-left: 33px;
+}
+
+#login span , #rigester span {
+    font-family: yekan;
+    font-size: 18px;
+    margin-top: 11px;
+}
+
+#login_sistem {
+    margin-top: -115px;
+    display: flex;
+    justify-content: end;
+}
+
+#login a , #rigester a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+}
+
+a {
+        text-decoration: none;
+        color: #000;
+
+}
+
+.names_user {
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 18px;
+}

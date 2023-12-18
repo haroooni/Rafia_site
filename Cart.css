@@ -1,0 +1,230 @@
+@font-face {
+    font-family: "cinema" ;
+    src : url(../font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf)
+}
+
+@font-face {
+    font-family: "yekan" ;
+    src: url(../font/YEKAN-BAKH-FANUM-04-REGULAR.WOFF);
+}
+
+.all_elem {
+    border: solid 3px #E9E9E9;
+  border-radius: 25px;
+  width: 1000px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: 110px;
+}
+
+.h_div {
+    font-family: yekan;
+    margin-right: -50px;
+}
+
+.div_price {
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: yekan;
+    margin-right: 140px;
+}
+
+.div_num {
+    margin-right: 40px;
+    margin-left: 50px;
+}
+
+.inp_num {
+    width: 40px;
+  border: solid 1px #E9E9E9;
+  border-radius: 3px;
+  margin-top: 29px;
+  margin-right: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu {
+    font-family: yekan;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+body {
+    background-color: #fff;
+}
+
+#menu {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    margin-top: -27px;
+}
+
+#logo_img {
+    width: 75px;
+    position: relative;
+    z-index: 2;
+}
+
+#login , #rigester {
+    border: solid 1px;
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 25px;
+}
+
+#login span , #rigester span {
+    font-family: yekan;
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+#login_sistem {
+    margin-top: -115px;
+    display: flex;
+    justify-content: start;
+}
+
+#login a , #rigester a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+}
+
+a {
+        text-decoration: none;
+        color: #000;
+
+}
+
+#orders {
+    margin-top: 98px;
+}
+
+#update {
+    background-color: white;
+  border: solid 1px;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-family: yekan;
+}
+
+@font-face {
+    font-family: "cinema" ;
+    src : url(../font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf)
+}
+
+@font-face {
+    font-family: "yekan" ;
+    src: url(../font/YEKAN-BAKH-FANUM-04-REGULAR.WOFF);
+}
+
+.input {
+    border: solid 3px #E9E9E9;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 20px;
+    padding-left: 130px;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-family: yekan;
+    margin-left: 10px;
+}
+
+.input::placeholder {
+    font-family: "yekan";
+    font-size: 19px;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+#family::placeholder {
+    font-size: 14px;
+}
+
+
+
+#list_div {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#list_div input {
+  padding-right: 20px;
+  padding-left: 130px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  height: 140px;
+  width: 778px;
+}
+
+#total_price {
+    font-family: yekan;
+  margin-left: 600px;
+  margin-top: -37.56px;
+}
+
+#send {
+    background-color: white;
+    border: solid 1px;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-family: yekan;
+}
+
+#send_div {
+    display: flex;
+    justify-content: center;
+}
+
+#key_addres::placeholder {
+    font-size: 14px;
+}
+
+.del_div {
+    border: solid 3px #FF4545;
+    width: 50px;
+    height: 70px;
+    margin-top: 8px;
+    border-radius: 7px;
+    margin-left: -98px;
+    background-color: #FF4545
+}
+
+.del_h {
+    font-family: yekan;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 22.4px;
+}

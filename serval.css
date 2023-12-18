@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "cinema" ;
+    src : url(../font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf)
+}
+
+@font-face {
+    font-family: "yekan" ;
+    src: url(../font/YEKAN-BAKH-FANUM-04-REGULAR.WOFF);
+}
+
+.input {
+    border: solid 3px #E9E9E9;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 20px;
+    padding-left: 130px;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-family: yekan;
+    margin-left: 10px;
+}
+
+.input::placeholder {
+    font-family: "yekan";
+    font-size: 19px;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+#family::placeholder {
+    font-size: 14px;
+}
+
+
+
+#list_div {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#list_div input {
+  padding-right: 20px;
+  padding-left: 130px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  height: 140px;
+  width: 778px;
+}

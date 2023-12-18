@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "cinema" ;
+    src : url(../../font/Cinema\ Font\ \(\ www.rezagraphic.ir\ \).ttf)
+}
+
+@font-face {
+    font-family: "yekan" ;
+    src: url(../../font/YEKAN-BAKH-FANUM-04-REGULAR.WOFF);
+}
+
+#img_all {
+    display: flex;
+    justify-content: end;
+    margin-right: 32px;
+  margin-top: 110px;
+}
+
+#img_all img {
+    height: 450px;
+    width: 500px;
+    border-radius: 25px;
+}
+
+#titel {
+    display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+#titel h1 {
+    font-size: 40px;
+  font-family: yekan;
+}
+
+#paragraph {
+    width: 700px;
+  direction: rtl;
+  margin-left: 19px;
+  margin-top: -398px;
+}
+
+#paragraph p {
+    font-family: yekan;
+  margin-top: 38px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+#price {
+    font-family: yekan;
+  font-size: 24px;
+  margin-left: 577px;
+  margin-top: 74px;
+}
+
+button {
+    display: flex;
+  justify-content: center;
+  width: 333px;
+  margin-left: 12px;
+  margin-top: 38px;
+  padding-top: 010px;
+}
+
+#this {
+  margin-top: -49px;
+  margin-left: 356px;
+}
+
+.menu {
+  font-family: yekan;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+body {
+  background-color: #fff;
+}
+
+#menu {
+  margin-top: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  margin-top: -27px;
+}
+
+#logo_img {
+  width: 75px;
+  position: relative;
+  z-index: 2;
+}
+
+#login , #rigester {
+  border: solid 1px;
+  border-radius: 5px;
+  width: 70px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 25px;
+}
+
+#login span , #rigester span {
+  font-family: yekan;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#login_sistem {
+  margin-top: -109px;
+  display: flex;
+  justify-content: start;
+}
+
+#login a , #rigester a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+}
+
+a {
+      text-decoration: none;
+      color: #000;
+
+}
