@@ -1,0 +1,602 @@
+@font-face {
+    font-family: "yekan" ;
+    src: url(../../font/YEKAN-BAKH-FANUM-04-REGULAR.WOFF);
+}
+
+@font-face {
+    font-family: "yekan_b" ;
+    src: url(../../font/Yekan-Bakh-FaNum-08-Fat.woff);
+}
+
+@font-face {
+    font-family: "yeseva" ;
+    src: url(../../font/YesevaOne-Regular.ttf);
+}
+
+@media screen and (max-width: 550px) and (min-width:416px) {
+
+.sign_up {
+    display: none;
+}
+    
+.nav_div {
+    background-color: antiquewhite !important;
+    width: 50% !important;
+    
+}
+
+.text_nav {
+    color: #000 !important;
+    font-family: yekan;
+}
+
+.btn_c {
+    background-color: #FAEBD7;
+    border: 0px;
+}
+
+.menu {
+    color: #000;
+    font-family: yekan;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    width: 35px;
+    margin-left: 38px;
+}
+
+.container-fluid {
+    background-color: #FFFFFF;
+}
+
+.butn {
+    font-family: yekan;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 60px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../../img/Arrow\ -\ Right\ 2.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../../img/Arrow\ -\ Left\ 2.svg);
+}
+
+#carouselExample {
+    margin-top: 100px;
+}
+
+.img_baner {
+    border-radius: 25px;
+    width: 400px !important;
+}
+
+.active {
+    display: flex !important;
+    justify-content: center;
+}
+
+.teren {
+    width: 160px;
+}
+
+#terend {
+    display: flex;
+    margin-top: 10px;
+    justify-content:center;
+}
+
+.pro_list {
+    border: 1px solid #000;
+    width: 118px;
+    height: 144px;
+    border-radius: 8px;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 9px;
+}
+
+.img_pro {
+    width: 105px;
+  border-radius: 5px;
+  height: 70px;
+}
+
+.img_div {
+    display: flex;
+    justify-content: center;
+}
+
+.text_pro {
+    font-family: yekan;
+    font-size: 12px;
+    margin-right: -9px;
+}
+
+.btn_go {
+    width: 50px;
+    height: 20px;
+    margin-left: 54px;
+    margin-bottom: 4px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: yekan;
+    font-size: 6px;
+}
+
+.peice_card {
+    font-size: 10px;
+    margin-top: -15px;
+    font-family: yekan;
+}
+
+#blog {
+    width: 96%;
+    height: 70px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+#all_blog {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.img_blog {
+    width: 115px;
+    border-radius: 15px;
+}
+
+#img_blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h_blog {
+    font-size: 15px;
+    font-family: yekan_b;
+    margin-left: 80px;
+}
+
+#h_blog {
+    display: flex;
+    justify-content: end;
+    margin-top: -73px;
+}
+
+#p_blog {
+    font-size: 7px;
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
+    margin-right: 8px;
+    font-family: yekan;
+}
+
+.close img {
+    width: 28px;
+}
+}
+
+@media screen and (min-width: 720px) {
+
+.prev {
+    margin-left: -30px;
+}
+
+.next {
+    margin-right: -30px;
+}
+    
+.nav_div {
+    background-color: antiquewhite !important;
+    width: 30% !important;
+    
+}
+
+.text_nav {
+    color: #000 !important;
+    font-family: yekan;
+}
+
+.btn_c {
+    background-color: #FAEBD7;
+    border: 0px;
+}
+
+.menu {
+    color: #000;
+    font-family: yekan;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    width: 35px;
+    margin-left: 113px;
+}
+
+.container-fluid {
+    background-color: #FFFFFF;
+}
+
+.butn {
+    font-family: yekan;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 60px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../../img/Arrow\ -\ Right\ 2.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../../img/Arrow\ -\ Left\ 2.svg);
+}
+
+#carouselExample {
+    margin-top: 100px;
+}
+
+.img_baner {
+    border-radius: 25px;
+    width: 650px !important;
+}
+
+.active {
+    display: flex !important;
+    justify-content: center;
+}
+
+.teren {
+    width: 240px;
+}
+
+#terend {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.pro_list {
+    border: 1px solid #000;
+    width: 207px;
+    height: 221px;
+    border-radius: 8px;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 9px;
+}
+
+.img_pro {
+    width: 192px;
+    border-radius: 5px;
+    height: 116px;
+}
+
+.img_div {
+    display: flex;
+    justify-content: center;
+}
+
+.text_pro {
+    font-family: yekan;
+    font-size: 17px;
+    margin-right: -8px;
+}
+
+.btn_go {
+    width: 65px;
+    height: 30px;
+    margin-left: 125px;
+    margin-top: 22px;
+    margin-bottom: 4px;
+    font-size: 8px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: yekan;
+}
+
+.peice_card {
+    font-size: 17px;
+    margin-top: -23px;
+    font-family: yekan;
+}
+
+#blog {
+    width: 89%;
+    height: 94px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-left: 11px;
+}
+
+#all_blog {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.img_blog {
+    width: 142px;
+    border-radius: 15px;
+    height: 92px;
+}
+
+#img_blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h_blog {
+    font-size: 19px;
+    font-family: yekan_b;
+    margin-left: 80px;
+    margin-top: -18px;
+    margin-right: 7px;
+}
+
+#h_blog {
+    display: flex;
+    justify-content: end;
+    margin-top: -73px;
+}
+
+#p_blog {
+    font-size: 7px;
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
+    margin-right: 8px;
+    font-family: yekan;
+}
+
+.close img {
+    width: 28px;
+}
+
+.menu_d {
+    margin-top: -8px;
+}
+}
+
+.prev {
+    margin-left: -30px;
+}
+
+.next {
+    margin-right: -30px;
+}
+    
+.nav_div {
+    background-color: antiquewhite !important;
+    width: 30% !important;
+    
+}
+
+.text_nav {
+    color: #000 !important;
+    font-family: yekan;
+}
+
+.btn_c {
+    background-color: #FAEBD7;
+    border: 0px;
+}
+
+.menu {
+    color: #000;
+    font-family: yekan;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    width: 35px;
+    margin-left: 113px;
+}
+
+.container-fluid {
+    background-color: #FFFFFF;
+}
+
+.butn {
+    font-family: yekan;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 60px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../../img/Arrow\ -\ Right\ 2.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../../img/Arrow\ -\ Left\ 2.svg);
+}
+
+#carouselExample {
+    margin-top: 75px;
+}
+
+.img_baner {
+    border-radius: 25px;
+    width: 1050px !important;
+}
+
+.active {
+    display: flex !important;
+    justify-content: center;
+}
+
+.teren {
+    width: 340px;
+}
+
+#terend {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.pro_list {
+    border: 1px solid #000;
+    width: 340PX;
+    height: 322px;
+    border-radius: 8px;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 9px;
+}
+
+.img_pro {
+    width: 316px;
+    border-radius: 5px;
+    height: 175px;
+}
+
+.img_div {
+    display: flex;
+    justify-content: center;
+}
+
+.text_pro {
+    font-family: yekan;
+    font-size: 24px;
+    margin-right: -2px;
+}
+
+.btn_go {
+    width: 85px;
+    height: 40px;
+    margin-left: 232px;
+    margin-top: 44px;
+    margin-bottom: 0px;
+    font-size: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: yekan;
+}
+
+.peice_card {
+    font-size: 17px;
+    margin-top: -23px;
+    font-family: yekan;
+}
+
+#blog {
+    width: 89%;
+    height: 120px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-left: 11px;
+}
+
+#all_blog {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.img_blog {
+    width: 240px;
+    border-radius: 15px;
+    height: 119px;
+}
+
+#img_blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h_blog {
+    font-size: 23px;
+    font-family: yekan_b;
+    margin-left: 80px;
+    margin-top: -36px;
+    margin-right: 7px;
+}
+
+#h_blog {
+    display: flex;
+    justify-content: end;
+    margin-top: -73px;
+}
+
+#p_blog {
+    font-size: 13px;
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
+    margin-right: 8px;
+    font-family: yekan;
+}
+
+.close img {
+    width: 28px;
+}
+
+.menu_d {
+    margin-top: -8px;
+}

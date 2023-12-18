@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "yekan" ;
+    src: url(../../font/YEKAN-BAKH-FANUM-04-REGULAR.WOFF);
+}
+
+@font-face {
+    font-family: "yekan_b" ;
+    src: url(../../font/Yekan-Bakh-FaNum-08-Fat.woff);
+}
+
+@font-face {
+    font-family: "yeseva" ;
+    src: url(../../font/YesevaOne-Regular.ttf);
+}
+
+@media screen and (max-width: 416px) {
+
+.sign_up {
+    display: none;
+}
+    
+.nav_div {
+    background-color: antiquewhite !important;
+    width: 50% !important;
+    
+}
+
+.text_nav {
+    color: #000 !important;
+    font-family: yekan;
+}
+
+.btn_c {
+    background-color: #FAEBD7;
+    border: 0px;
+}
+
+.menu {
+    color: #000;
+    font-family: yekan;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    width: 35px;
+    margin-left: 38px;
+}
+
+.container-fluid {
+    background-color: #FFFFFF;
+}
+
+.butn {
+    font-family: yekan;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 50px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#btns {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../../img/Arrow\ -\ Right\ 2.svg);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../../img/Arrow\ -\ Left\ 2.svg);
+}
+
+#carouselExample {
+    margin-top: 100px;
+}
+
+.img_baner {
+    border-radius: 25px;
+    width: 310px !important;
+}
+
+.active {
+    display: flex !important;
+    justify-content: center;
+}
+
+.teren {
+    width: 8.75rem;
+}
+
+#terend {
+    display: flex;
+    margin-top: 10px;
+    justify-content:center;
+}
+
+.pro_list {
+    border: 1px solid #000;
+    width: 5.62rem;
+    height: 123px;
+    border-radius: 8px;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 9px;
+}
+
+.img_pro {
+    width: 82px;
+    border-radius: 5px;
+    height: 45px;
+}
+
+.img_div {
+    display: flex;
+    justify-content: center;
+}
+
+.text_pro {
+    font-family: yekan;
+    font-size: 9px;
+    margin-right: -9px;
+}
+
+.btn_go {
+    width: 40px;
+    height: 15px;
+    margin-left: 37px;
+    margin-top: 21px;
+    margin-bottom: 4px;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: yekan;
+    font-size: 4px;
+}
+
+.peice_card {
+    font-size: 8px;
+    margin-top: -15px;
+    font-family: yekan;
+}
+
+#blog {
+    width: 80%;
+    height: 70px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+#all_blog {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.img_blog {
+    width: 115px;
+    border-radius: 15px;
+}
+
+#img_blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h_blog {
+    font-size: 12px;
+    font-family: yekan_b;
+    margin-left: 80px;
+}
+
+#h_blog {
+    display: flex;
+    justify-content: end;
+    margin-top: -73px;
+}
+
+#p_blog {
+    font-size: 5px;
+    display: flex;
+    justify-content: end;
+    margin-top: 0px;
+    margin-right: 8px;
+    font-family: yekan;
+}
+
+.close img {
+    width: 28px;
+}
+}
